@@ -1,0 +1,17 @@
+general
+``````````````````````
+indoor / outdoor
+
+indoor - ceiling, wall
+outdoor - street, flood, highbay, garden bollards
+
+
+archietectural 
+``````````````````````
+indoor / outdoor
+
+indoor - ceiling lamps, wall lamps, chandeliers, table lamp, floor lamp, 
+outdoor - street, garden bollards
+
+
+Smart Benches

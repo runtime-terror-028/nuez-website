@@ -1,0 +1,36 @@
+
+.product_feature{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.product_feature_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 30px 0 30px;
+    gap: 40px;
+
+}
+
+.feature_left, .feature_right{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.product_image{
+    width: 400px;
+    height: 400px;
+}
+
+.product_image img{
+    height: inherit;
+    width: inherit;
+}

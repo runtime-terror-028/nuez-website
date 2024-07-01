@@ -1,0 +1,27 @@
+.catalogue_panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 15px 0 15px;
+    gap: 50px;
+    height: 500px;
+}
+
+.catalogue_panel_description{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: solid black 1px;
+    width: 30%;
+    height:fit-content;
+}
+
+.catalogue_panel_image{
+    width: 60%;
+    border: solid black 1px;
+    height: 410px;
+}
+#catalogue_panel_image1{
+    height: inherit;
+    width: inherit;
+}

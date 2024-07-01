@@ -1,0 +1,68 @@
+temp{
+    margin-top: 20px;
+    height: 250px;
+    background-color: blanchedalmond;
+}
+
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: first baseline;
+    font-weight: 100;
+    color: rgb(39, 39, 39);
+}
+
+.footer_heading{
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+}
+
+.footer_contact{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding: 20px 0;
+}
+
+.footer_social{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.footer_bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+    color: black;
+    height: 75px;
+}
+
+.footer_facebook, .footer_twitter, .footer_instagram, .footer_youtube, .footer_address, .footer_email, .footer_phone, .footer_whatsapp{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:flex-end;
+    gap: 10px;
+}
+
+.footer_facebook img, .footer_twitter img, .footer_instagram img, .footer_youtube img, .footer_contact img, .footer_email img, .footer_phone img, .footer_whatsapp{
+    height: 20px;
+    width: 20px;
+}
+
+.footer_social .footer_heading{
+    margin-bottom: 14px;
+}
