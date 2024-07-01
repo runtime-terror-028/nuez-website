@@ -1,6 +1,3 @@
-.empty_space{
-    width: 200px;
-}
 
 header{
     /* display: flex;
@@ -25,27 +22,16 @@ header{
 .main_bar{
     padding: 5px 0 0 0;
     align-items: center;
-}
-.main_bar .main_bar_child{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    margin: 0 15% 0 15%;
+    justify-content: space-between;
+    height: 18vh;
 }
 
-.main_bar .main_bar_child img{
-    width: 250px;
+.main_bar_logo a img{
+    height: 35px;
+    padding: 0 0 0 10px;
 }
-
-.main_bar_account{
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    align-items: center;
-    font-weight: 100;
-    font-size: smaller;
-}
-
 
 
 /* BAR NAV */
@@ -57,7 +43,6 @@ header{
 
 .nav_bar ul{
     list-style-type: none;
-    padding: 0 10% 0 10%;
 }
 
 .nav_bar ul li{

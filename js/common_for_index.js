@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     var new_header_content = `
 
+
     <div class="social_bar">
         <div class="social_bar_phone"><img alt="">   9090085440</div>
         <div class="social_bar_whatsapp"><img alt="">   Whatsapp</div>
@@ -32,22 +33,22 @@ document.addEventListener('DOMContentLoaded', function () {
                     <div class="nav_bar_dropdown_content_child">
                         <div class="sub_dropdown">
                             <h6><u>Indoor Lighting</u></h6>
-                            <a href="ceiling_light.html">Ceiling Lighting</a>
-                            <a href="wall_light.html"> Wall Lighting</a>
-                            <a href="ceiling_lamp.html">Ceiling Lamps</a>
-                            <a href="wall_lamp.html">Wall Lamps</a>
-                            <a href="chandelier.html">Chandeliers</a>
-                            <a href="table_lamp.html">Table Lamps</a>
-                            <a href="floor_lamp.html">Floor Lamps</a>
+                            <a href="html/ceiling_light.html">Ceiling Lighting</a>
+                            <a href="html/wall_light.html"> Wall Lighting</a>
+                            <a href="html/ceiling_lamp.html">Ceiling Lamps</a>
+                            <a href="html/wall_lamp.html">Wall Lamps</a>
+                            <a href="html/chandelier.html">Chandeliers</a>
+                            <a href="html/table_lamp.html">Table Lamps</a>
+                            <a href="html/floor_lamp.html">Floor Lamps</a>
     
     
                         </div>
                         <div class="sub_dropdown"> 
                             <h6><u>Outdoor Lamps</u></h6>
-                            <a href="street_light.html">Street Lighting</a>
-                            <a href="flood_light.html">Flood Lighting</a>
-                            <a href="highbay_light.html">Highbay Lighting</a>
-                            <a href="garden_ballard.html">Garden Bollards</a>
+                            <a href="html/street_light.html">Street Lighting</a>
+                            <a href="html/flood_light.html">Flood Lighting</a>
+                            <a href="html/highbay_light.html">Highbay Lighting</a>
+                            <a href="html/garden_ballard.html">Garden Bollards</a>
                         </div>
                     </div>
                 </div>
@@ -55,9 +56,9 @@ document.addEventListener('DOMContentLoaded', function () {
     
             <li><a href="smart_benches.html">Smart Benches</a></li>
     
-            <li><a href="cctv.html">CCTV</a></li>
+            <li><a href="html/cctv.html">CCTV</a></li>
     
-            <li><a href="bms.html">BMS</a></li>
+            <li><a href="html/bms.html">BMS</a></li>
     
             <li class="nav_bar_dropdown">
                 <a class="nav_bar_dropdown_button" href="">More</a>
