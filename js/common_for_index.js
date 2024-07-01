@@ -8,24 +8,17 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     <div class="social_bar">
-        <div class="social_bar_phone"><img alt="">   9090085440</div>
-        <div class="social_bar_whatsapp"><img alt="">   Whatsapp</div>
-        <div class="social_bar_email"><img alt="">   Email</div>
-        <div class="social_bar_track_order">Track your order</div>
-    </div>
-    <div class="main_bar">
-        <div class="main_bar_child">
-            <!-- <div class="empty_space"></div> -->
-            <div class="main_bar_logo"><a href="../../index.html"><img id="logo"></a></div>
-            <!-- <div class="main_bar_account">
-                <div class="account_profile account"><img alt=""> Account</div>
-                <div class="account_wishlist account"><img alt=""> WishList</div>
-                <div class="account_cart account"><img alt=""> Cart</div>
-            </div> -->
-        </div>
-    </div>
+    <div class="social_bar_phone"><img alt=""> 9090085440</div>
+    <div class="social_bar_whatsapp"><img alt=""> Whatsapp</div>
+    <div class="social_bar_email"><img alt=""> Email</div>
+    <div class="social_bar_track_order">Track your order</div>
+</div>
+<div class="main_bar">
+
+    <div class="main_bar_logo"><a href="../../index.html"><img id="logo"></a></div>
+
+
     <div class="nav_bar">
-    
         <ul>
             <li class="nav_bar_dropdown">
                 <a class="nav_bar_dropdown_button">Lighting</a>
@@ -40,10 +33,10 @@ document.addEventListener('DOMContentLoaded', function () {
                             <a href="html/chandelier.html">Chandeliers</a>
                             <a href="html/table_lamp.html">Table Lamps</a>
                             <a href="html/floor_lamp.html">Floor Lamps</a>
-    
-    
+
+
                         </div>
-                        <div class="sub_dropdown"> 
+                        <div class="sub_dropdown">
                             <h6><u>Outdoor Lamps</u></h6>
                             <a href="html/street_light.html">Street Lighting</a>
                             <a href="html/flood_light.html">Flood Lighting</a>
@@ -53,13 +46,13 @@ document.addEventListener('DOMContentLoaded', function () {
                     </div>
                 </div>
             </li>
-    
+
             <li><a href="smart_benches.html">Smart Benches</a></li>
-    
+
             <li><a href="html/cctv.html">CCTV</a></li>
-    
+
             <li><a href="html/bms.html">BMS</a></li>
-    
+
             <li class="nav_bar_dropdown">
                 <a class="nav_bar_dropdown_button" href="">More</a>
                 <div class="nav_bar_dropdown_content">
@@ -67,13 +60,15 @@ document.addEventListener('DOMContentLoaded', function () {
                     <a href="">More</a>
                 </div>
             </li>
-    
-    
+
+
             <li><a href="">Store Locator</a></li>
         </ul>
-    
+
     </div>
 
+
+</div>
     `;
 
     var new_footer_content = `
