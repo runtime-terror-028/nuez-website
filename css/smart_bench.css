@@ -1,3 +1,8 @@
+#smart_bench_product_feature_image{
+    height: 300px;
+}
+
+
 
 .product_feature{
     display: flex;
@@ -5,6 +10,7 @@
     justify-content: center;
     align-items: center;
     gap: 40px;
+    margin-top: 20px;
 }
 
 .product_feature_content{
@@ -35,6 +41,3 @@
     width: inherit;
 }
 
-#cctv_product_feature_image{
-    height: 300px;
-}

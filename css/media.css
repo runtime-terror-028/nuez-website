@@ -10,40 +10,44 @@
     content: url("../img/swiper/swiper2.jpg");
 }
 
+#swiper_image3{
+    content: url("../img/swiper/swiper3.png");
+}
+
 .card_img{
     height: 100%;
     width: 100%;
 }
 
 #card_img1{
-    content: url("../img/card/card1.webp");
+    content: url("../img/card/p9.png");
 }
 #card_img2{
-    content: url("../img/card/card2.webp");
+    content: url("../img/card/p10.png");
 }
 #card_img3{
-    content: url("../img/card/card3.webp");
+    content: url("../img/card/p1.png");
 }
 #card_img4{
-    content: url("../img/card/card4.webp");
+    content: url("../img/card/p2.png");
 }
 #card_img5{
-    content: url("../img/card/card5.webp");
+    content: url("../img/card/p3.png");
 }
 #card_img6{
-    content: url("../img/card/card6.webp");
+    content: url("../img/card/p4.png");
 }
 #card_img7{
-    content: url("../img/card/card7.webp");
+    content: url("../img/card/p5.png");
 }
 #card_img8{
-    content: url("../img/card/card8.webp");
+    content: url("../img/card/p6.png");
 }
 #card_img9{
-    content: url("../img/card/card9.webp");
+    content:url("../img/card/p7.png");
 }
 #card_img10{
-    content: url("../img/card/card10.webp");
+    content: url("../img/card/p8.png");
 }
 
 
@@ -65,7 +69,10 @@
 
 
 #cctv_product_feature_image{
-    content: url("../img/cctv/cctv1.png");
+    content: url("../img/cctv/cctv_main.jpg");
+}
+#smart_bench_product_feature_image{
+    content: url("../img/smart_bench.png");
 }
 #cctv_slider_image1{
     content: url("../img/cctv/cctv_slider1.png");
@@ -150,4 +157,8 @@
 }
 .wall_light{
     content:url("../img/product/wall_light.png");
+}
+
+.ceiling_light_img{
+    content: url("../img/product_light.png");
 }

@@ -49,6 +49,7 @@ footer{
     background-color: rgb(238, 238, 238);
     color: black;
     height: 75px;
+    text-align: center;
 }
 
 .footer_facebook, .footer_twitter, .footer_instagram, .footer_youtube, .footer_address, .footer_email, .footer_phone, .footer_whatsapp{

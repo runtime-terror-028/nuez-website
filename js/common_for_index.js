@@ -6,14 +6,17 @@ document.addEventListener('DOMContentLoaded', function () {
 
     var new_header_content = `
 
-
     <div class="social_bar">
-    <div class="social_bar_phone"><img alt=""> 9090085440</div>
-    <div class="social_bar_whatsapp"><img alt=""> Whatsapp</div>
-    <div class="social_bar_email"><img alt=""> Email</div>
-    <div class="social_bar_track_order">Track your order</div>
-</div>
-<div class="main_bar">
+    
+    
+    <a href=""><div class="social_bar_phone"><img alt=""> 9090085440</div></a>
+    <a href="/html/contactus.html"><div class="social_bar_whatsapp"><img alt=""> Whatsapp</div></a>
+    <a href="/html/contactus.html"> <div class="social_bar_email"><img alt=""> Email</div></a>
+    <a href="">  <div class="social_bar_track_order">Track your order</div></a>
+       
+      
+    </div>
+<div id="main_bar" class="main_bar">
 
     <div class="main_bar_logo"><a href="../../index.html"><img id="logo"></a></div>
 
@@ -47,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 </div>
             </li>
 
-            <li><a href="smart_benches.html">Smart Benches</a></li>
+            <li><a href="html/smart_benches.html">Smart Benches</a></li>
 
             <li><a href="html/cctv.html">CCTV</a></li>
 
@@ -56,13 +59,15 @@ document.addEventListener('DOMContentLoaded', function () {
             <li class="nav_bar_dropdown">
                 <a class="nav_bar_dropdown_button" href="">More</a>
                 <div class="nav_bar_dropdown_content">
-                    <a href="">More</a>
-                    <a href="">More</a>
+                    <a href="html/aboutus.html">About us</a>
+                    <a href="html/testimony.html">Testimony</a>
+                    <a href="html/contactus.html">Contact Us</a>
+                     <a href="html/test.html">Test Product</a>
                 </div>
             </li>
 
 
-            <li><a href="">Store Locator</a></li>
+            <li><a href="html/store_locater.html">Store Locator</a></li>
         </ul>
 
     </div>
@@ -80,9 +85,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     Contact Us
                 </div>
                 <div class="footer_address">
-                    <p>Lorem ipsum dolor, sit amet consectetur <br>
-                        adipisicing elit. Excepturi, rem autem! Nisi<br>
-                        maiores laborum labo</p>
+                    <p>B-206, KSSIDC Complex, Block II, 2nd Cross Rd, <br>Electronics City Phase 1, Electronic City, Bengaluru, <br>Karnataka 560100</p>
                     <img alt="">
                 </div>
                 <div class="footer_email">
@@ -128,7 +131,8 @@ document.addEventListener('DOMContentLoaded', function () {
         </div>
 
         <div class="footer_bottom">
-            This is page is copyrighted by NUEZ Tech
+            © 2000-2024, NUEZ Technologies Pvt Ltd.
+            All rights reserved.
         </div>
 
     `;
@@ -136,3 +140,6 @@ document.addEventListener('DOMContentLoaded', function () {
     common_header_content.innerHTML = new_header_content;
     common_footer_content.innerHTML = new_footer_content;
 });
+
+
+
