@@ -2,7 +2,9 @@
     height: 300px;
 }
 
-
+.container{
+    margin: 50px 0 50px 0;
+}
 
 .product_feature{
     display: flex;
@@ -41,3 +43,7 @@
     width: inherit;
 }
 
+.smart_bench_hero_img{
+    height: auto;
+    width: auto;
+}

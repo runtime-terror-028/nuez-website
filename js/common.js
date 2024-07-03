@@ -133,6 +133,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     `;
 
-    common_header_content.innerHTML = new_header_content;
+    // common_header_content.innerHTML = new_header_content;
     common_footer_content.innerHTML = new_footer_content;
 });

@@ -38,3 +38,16 @@
 #cctv_product_feature_image{
     height: 300px;
 }
+
+.cctv_hero_img{
+    height: 250px;
+    width: 250px;
+}
+
+.container_parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 110px;
+    margin: 80px auto 50px auto;
+}
