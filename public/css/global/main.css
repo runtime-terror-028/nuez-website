@@ -1,0 +1,47 @@
+:root {
+
+  --blue-color-0: #e7eaf6;
+  --blue-color-1: #a2a8d3;
+  --blue-color-2: #6643b5;
+  --blue-color-3: #430f58;
+
+  --black-color: #04060D;
+  --gray-color: #D3D4D7;
+  --dark-blue-color: #143AA2;
+  --light-blue-color: #3E8DE3;
+
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.social_bar a:link {
+  text-decoration: none;
+  color: black;
+}
+
+.social_bar a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.social_bar a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.social_bar a:active {
+  text-decoration: none;
+  color: black;
+}
