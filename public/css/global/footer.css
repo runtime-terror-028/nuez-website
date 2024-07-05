@@ -58,6 +58,7 @@ footer{
     flex-direction: row-reverse;
     justify-content:flex-end;
     gap: 10px;
+    cursor: pointer;
 }
 
 .footer_facebook img, .footer_twitter img, .footer_instagram img, .footer_youtube img, .footer_contact img, .footer_email img, .footer_phone img, .footer_whatsapp{
