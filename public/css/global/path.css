@@ -118,6 +118,15 @@
 #cctv6 {
     content: url("/img/cctv/ptz_cctv.png");
 }
+#cctv7{
+    content: url("/img/cctv2/cctv.png");
+}
+#cctv8{
+    content: url("/img/cctv2/cctv2.png");
+}
+#cctv9{
+    content: url("/img/cctv2/cctv3.png");
+}
 
 .footer_facebook img {
     content: url(/img/SVG/facebook.svg);
