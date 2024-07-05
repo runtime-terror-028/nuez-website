@@ -208,3 +208,15 @@
 #aboutus_img {
     content: url("/img/aboutus/aboutus.jpeg");
 }
+
+#testimonial_img1 {
+    content: url("/img/testimonial/t1.png");
+}
+
+#testimonial_img2 {
+    content: url("/img/testimonial/t2.png");
+}
+
+#testimonial_img3 {
+    content: url("/img/testimonial/t3.png");
+}
