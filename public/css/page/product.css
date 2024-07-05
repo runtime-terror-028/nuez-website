@@ -1,4 +1,4 @@
-.product_page_heading{
+/* .product_page_heading{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,4 +48,55 @@
 .product_heading p{
     font-size: 20px;
     padding: 15px 5px 0 15px;
+} */
+
+
+
+/* ↑ old product page ↑ */   
+
+.product_parent_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 50px;
+    margin: 50px;
+}
+
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.product_image{
+    height: inherit;
+    width: inherit;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_button_buy{
+    width: 100%;
+}
+
+.card-title{
+    font-weight: 300;
+}
+
+.card-price{
+    color: red;
+}
+
+
+.product_name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+}
+.product_name h2{
+    font-weight: 400;
 }

@@ -1,174 +1,210 @@
-#logo{
+#logo {
     content: url("/img/logo.png");
 }
 
-#swiper_image1{
+#swiper_image1 {
     content: url("/img/swiper/swiper1.jpg");
 }
 
-#swiper_image2{
+#swiper_image2 {
     content: url("/img/swiper/swiper2.jpg");
 }
 
-#swiper_image3{
+#swiper_image3 {
     content: url("/img/swiper/swiper3.png");
 }
 
-.card_img{
+.card_img {
     height: 100%;
     width: 100%;
 }
 
-#card_img1{
+#card_img1 {
     content: url("/img/card/p9.png");
 }
-#card_img2{
+
+#card_img2 {
     content: url("/img/card/p10.png");
 }
-#card_img3{
+
+#card_img3 {
     content: url("/img/card/p1.png");
 }
-#card_img4{
+
+#card_img4 {
     content: url("/img/card/p2.png");
 }
-#card_img5{
+
+#card_img5 {
     content: url("/img/card/p3.png");
 }
-#card_img6{
+
+#card_img6 {
     content: url("/img/card/p4.png");
 }
-#card_img7{
+
+#card_img7 {
     content: url("/img/card/p5.png");
 }
-#card_img8{
+
+#card_img8 {
     content: url("/img/card/p6.png");
 }
-#card_img9{
-    content:url("/img/card/p7.png");
+
+#card_img9 {
+    content: url("/img/card/p7.png");
 }
-#card_img10{
+
+#card_img10 {
     content: url("/img/card/p8.png");
 }
 
 
 
-#catalogue_panel_image1{
+#catalogue_panel_image1 {
     content: url("/img/card/light4.jpeg");
 }
 
-#hero1_img{
+#hero1_img {
     content: url("/img/hero/hero1.png");
 }
-#hero2_img{
+
+#hero2_img {
     content: url("/img/hero/hero2.webp");
 }
-#hero3_img{
+
+#hero3_img {
     content: url("/img/hero/hero3.png");
 }
 
 
 
-#cctv_product_feature_image{
+#cctv_product_feature_image {
     content: url("/img/cctv/cctv_main.png");
 }
-#smart_bench_product_feature_image{
+
+#smart_bench_product_feature_image {
     content: url("/img/smart_bench.png");
 }
-#cctv_slider_image1{
+
+#cctv_slider_image1 {
     content: url("/img/cctv/cctv_slider1.png");
 }
-#cctv_slider_image2{
+
+#cctv_slider_image2 {
     content: url("/img/cctv/cctv_slider2.png");
 }
 
-#cctv1{
+#cctv1 {
     content: url("/img/cctv/bullet_cctv.png");
 }
-#cctv2{
-    content: url("/img/cctv/dome_cctv.png"); 
+
+#cctv2 {
+    content: url("/img/cctv/dome_cctv.png");
 }
-#cctv3{
+
+#cctv3 {
     content: url("/img/cctv/indoor_cctv.png");
 }
-#cctv4{
+
+#cctv4 {
     content: url("/img/cctv/ir_cctv.png");
 }
-#cctv5{
+
+#cctv5 {
     content: url("/img/cctv/outdoor_cctv.png");
 }
-#cctv6{
+
+#cctv6 {
     content: url("/img/cctv/ptz_cctv.png");
 }
 
-.footer_facebook img{
+.footer_facebook img {
     content: url(/img/SVG/facebook.svg);
 }
-.footer_twitter img{
+
+.footer_twitter img {
     content: url(/img/SVG/twitter.svg);
 }
-.footer_instagram img{
+
+.footer_instagram img {
     content: url(/img/SVG/instagram.svg);
 }
-.footer_youtube img{
+
+.footer_youtube img {
     content: url(/img/SVG/youtube.svg);
 }
 
 
-.footer_address img{
+.footer_address img {
     content: url(/img/SVG/location.svg);
 }
-.footer_email img{
+
+.footer_email img {
     content: url(/img/SVG/email.svg);
 }
-.footer_phone img{
+
+.footer_phone img {
     content: url(/img/SVG/phone.svg);
 }
-.footer_whatsapp img{
+
+.footer_whatsapp img {
     content: url(/img/SVG/whatsapp2.svg);
 }
 
 
-.social_bar_phone img{
+.social_bar_phone img {
     content: url("/img/SVG/phone.svg");
 }
-.social_bar_whatsapp img{
+
+.social_bar_whatsapp img {
     content: url("/img/SVG/whatsapp.svg");
 }
-.social_bar_email img{
+
+.social_bar_email img {
     content: url("/img/SVG/email.svg");
 }
 
-.account_profile img{
+.account_profile img {
     content: url("/img/SVG/phone.svg");
 }
-.account_cart img{
+
+.account_cart img {
     content: url("/img/SVG/whatsapp.svg");
 }
-.account_wishlist img{
+
+.account_wishlist img {
     content: url("/img/SVG/email.svg");
-} 
+}
 
-.product_image{
+.product_image {
     content: url("/img/product_light.png");
 }
 
-.ceiling_light{
-    content:url("/img/product/ceiling_light.png");
-}
-.wall_light{
-    content:url("/img/product/wall_light.png");
+.ceiling_light {
+    content: url("/img/product/ceiling_light.png");
 }
 
-.ceiling_light_img{
+.wall_light {
+    content: url("/img/product/wall_light.png");
+}
+
+.ceiling_light_img {
     content: url("/img/product_light.png");
 }
 
-#bms_hero_img{
+#bms_hero_img {
     content: url("/img/bms/bms_hero.png");
 }
-#bms_worker_img{
+
+#bms_worker_img {
     content: url("/img/bms/wroker.jpg");
 }
-#bms_diagram_img{
+
+#bms_diagram_img {
     content: url("/img/bms/bms_diagram.png");
+}
+
+#aboutus_img {
+    content: url("/img/aboutus/aboutus.jpeg");
 }

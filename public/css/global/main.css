@@ -1,18 +1,3 @@
-:root {
-
-  --blue-color-0: #e7eaf6;
-  --blue-color-1: #a2a8d3;
-  --blue-color-2: #6643b5;
-  --blue-color-3: #430f58;
-
-  --black-color: #04060D;
-  --gray-color: #D3D4D7;
-  --dark-blue-color: #143AA2;
-  --light-blue-color: #3E8DE3;
-
-}
-
-
 * {
   margin: 0;
   padding: 0;
@@ -26,22 +11,28 @@ body {
   position: relative;
 }
 
-.social_bar a:link {
-  text-decoration: none;
-  color: black;
-}
 
-.social_bar a:visited {
-  text-decoration: none;
-  color: black;
-}
+:root {
+  /* Uncomment to use tge color theme (make sure that only on color palette is uncommented) */
 
-.social_bar a:hover {
-  text-decoration: none;
-  color: black;
-}
+ /*-- color palette 1 --*/
+  --color-0: #F9F7F7;
+  --color-1: #DBE2EF;
+  --color-2: #3F72AF;
+  --color-3: #112D4E;
 
-.social_bar a:active {
-  text-decoration: none;
-  color: black;
+
+  /*-- color palette 2 --*/
+  /* --color-0: #EBF4F6;
+  --color-1: #37B7C3;
+  --color-2: #088395;
+  --color-3: #071952; */
+
+  --color-black: #000000;
+  --color-white: #ffffff;
+
+
+
+
+
 }
