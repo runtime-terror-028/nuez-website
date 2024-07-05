@@ -32,9 +32,14 @@ const PAGE_TABLE_LAMP = PAGE_PRODUCT + "table_lamp.html";
 const PAGE_WALL_LAMP = PAGE_PRODUCT + "wall_lamp.html";
 const PAGE_WALL_LIGHT = PAGE_PRODUCT + "wall_light.html";
 
+const PAGE_TEST = VIEWS + "test.html"
+
 
 
 //PAGE ROUTES--------
+router.get('/test', (req, res) => {
+  res.sendFile(path.join(__dirname, PAGE_TEST));
+});
 
 router.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, PAGE_INDEX));
