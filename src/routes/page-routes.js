@@ -22,7 +22,7 @@ const PAGE_SMART_BENCHE = NAV_LINK + "smart_benches.html";
 
 const PAGE_CEILING_LIGHT = PAGE_PRODUCT + "ceiling_light.html";
 const PAGE_CEILING_LAMP = PAGE_PRODUCT + "ceiling_lamp.html";
-const PAGE_CHANDELIER = PAGE_PRODUCT + "chandlier.html";
+const PAGE_CHANDELIER = PAGE_PRODUCT + "chandelier.html";
 const PAGE_FLOOR_LIGHT = PAGE_PRODUCT + "floor_light.html";
 const PAGE_FLOOR_LAMP = PAGE_PRODUCT + "floor_lamp.html";
 const PAGE_GARDEN_BALLARD = PAGE_PRODUCT + "garden_ballard.html";
@@ -44,7 +44,7 @@ router.get('/aboutus', (req, res) => {
   res.sendFile(path.join(__dirname, PAGE_ABOUT));
 });
 
-router.get('/contact', (req, res) => {
+router.get('/contactus', (req, res) => {
   res.sendFile(path.join(__dirname, PAGE_CONTACT_US));
 });
 
@@ -76,7 +76,7 @@ router.get('/chandelier', (req, res) => {
   res.sendFile(path.join(__dirname, PAGE_CHANDELIER));
 });
 
-router.get('/floor_light', (req, res) => {
+router.get('/flood_light', (req, res) => {
   res.sendFile(path.join(__dirname, PAGE_FLOOR_LIGHT));
 });
 
