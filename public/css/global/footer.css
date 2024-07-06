@@ -9,7 +9,7 @@ temp{
 footer{
     display: flex;
     flex-direction: column;
-    border: solid yellow 8px;
+    /* border: solid yellow 8px; */
 }
 
 .footer_top{
