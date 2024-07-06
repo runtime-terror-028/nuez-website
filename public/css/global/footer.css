@@ -60,6 +60,7 @@ footer{
     flex-direction: row-reverse;
     justify-content:flex-end;
     gap: 10px;
+    cursor: pointer;
 }
 
 .footer_facebook img, .footer_twitter img,

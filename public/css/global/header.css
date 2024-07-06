@@ -11,28 +11,28 @@ header {
     /* border: solid rgb(255, 247, 0) 8px; */
 }
 
-.social_bar a:link {
+#social_bar a:link {
     text-decoration: none;
     color: black;
 }
 
-.social_bar a:visited {
+#social_bar a:visited {
     text-decoration: none;
     color: black;
 }
 
-.social_bar a:hover {
+#social_bar a:hover {
     text-decoration: none;
     color: black;
 }
 
-.social_bar a:active {
+#social_bar a:active {
     text-decoration: none;
     color: black;
 }
 
 
-.social_bar {
+#social_bar {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -51,7 +51,7 @@ header {
     gap: 5px;
 }
 
-.main_bar {
+#main_bar {
     padding: 5px 0 0 0;
     align-items: center;
     display: flex;
@@ -61,7 +61,7 @@ header {
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
-.main_bar_logo a img {
+#main_bar_logo a img {
     height: 35px;
     padding: 0 0 0 20px;
 }
