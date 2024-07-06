@@ -222,9 +222,26 @@ li_navbar_bms.appendChild(a_bms);
 
 //li more
 a_more = document.createElement('a');
-a_more.href = "/more";
 a_more.textContent = "More";
+a_more.className = "nav_bar_dropdown"
+more_content = document.createElement('div');
+more_content.className = "nav_bar_dropdown_content"
+
+a_aboutus = document.createElement('a');
+a_aboutus.href = "/aboutus"
+a_aboutus.textContent = "About us"
+a_testimony = document.createElement('a');
+a_testimony.textContent = "Testimony"
+a_testimony.href = "/testimony";
+a_contactus = document.createElement('a');
+a_contactus.textContent = "Contact us";
+a_contactus.href = "/contactus";
+more_content.appendChild(a_aboutus);
+more_content.appendChild(a_testimony);
+more_content.appendChild(a_contactus);
+
 li_navbar_more.appendChild(a_more);
+a_more.appendChild(more_content);
 
 // li store locater
 a_store_locater = document.createElement('a');
