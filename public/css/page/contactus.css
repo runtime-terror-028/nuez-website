@@ -51,7 +51,7 @@ margin: 15px 0 100px 0 ;
   }
   
   input:focus {
-    outline-color: red;
+    outline-color: blue;
   }
   
   .button_container {
