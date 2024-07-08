@@ -66,15 +66,15 @@
 }
 
 #hero1_img {
-    content: url("/img/hero/hero1.png");
+    content: url("/img/hero/homepage1.png");
 }
 
 #hero2_img {
-    content: url("/img/hero/hero2.webp");
+    content: url("/img/hero/homepage2.png");
 }
 
 #hero3_img {
-    content: url("/img/hero/hero3.png");
+    content: url("/img/hero/homepage3.png");
 }
 
 
