@@ -83,9 +83,9 @@
     content: url("/img/cctv/cctv_main.png");
 }
 
-#smart_bench_product_feature_image {
+/* #smart_bench_product_feature_image {
     content: url("/img/smart_bench.png");
-}
+} */
 
 #cctv_slider_image1 {
     content: url("/img/cctv/cctv_slider1.png");
@@ -118,13 +118,16 @@
 #cctv6 {
     content: url("/img/cctv/ptz_cctv.png");
 }
-#cctv7{
+
+#cctv7 {
     content: url("/img/cctv2/cctv.png");
 }
-#cctv8{
+
+#cctv8 {
     content: url("/img/cctv2/cctv2.png");
 }
-#cctv9{
+
+#cctv9 {
     content: url("/img/cctv2/cctv3.png");
 }
 
@@ -228,4 +231,28 @@
 
 #testimonial_img3 {
     content: url("/img/testimonial/t3.png");
+}
+
+#smart_benchs_image1 {
+    content: url("/img/smartbench/simg1.png");
+}
+
+#smart_benchs_image2 {
+    content: url("/img/smartbench/simg2.png");
+}
+
+#smart_benchs_image3 {
+    content: url("/img/smartbench/simg3.png");
+}
+
+#smart_benchs_image4 {
+    content: url("/img/smartbench/simg4.png");
+}
+
+#smart_benchs_image5 {
+    content: url("/img/smartbench/simg5.png");
+}
+
+#smart_benchs_image6 {
+    content: url("/img/smartbench/simg6.png");
 }
