@@ -4,7 +4,9 @@ temp{
     background-color: blanchedalmond;
 }
 
-
+footer p{
+    white-space: pre;
+}
 
 footer{
     display: flex;
@@ -44,6 +46,7 @@ footer{
 }
 
 .footer_bottom{
+    white-space: pre;
     display: flex;
     justify-content: center;
     align-items: center;

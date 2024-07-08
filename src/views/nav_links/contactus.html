@@ -103,30 +103,6 @@
 
   <footer id="footer"></footer>
 
-
-  <script>
-    function handleFormSubmission(event) {
-        event.preventDefault(); // Prevent the default form submission
-
-        const formData = new FormData(event.target);
-
-        fetch('/send-mail', {
-            method: 'POST',
-            body: formData
-        })
-        .then(response => response.json())
-        .then(data => {
-            if (data.success) {
-                window.alert('Email sent successfully');
-            } else {
-                window.alert('Error: ' + data.message);
-            }
-        })
-        .catch(error => {
-            alert('Error: ' + error.message);
-        });
-    }
-</script>
 <script src="js/header.js"></script>
 <script src="js/footer.js"></script>
 <script src="js/common.js"></script>
