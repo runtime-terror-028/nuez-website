@@ -4,7 +4,9 @@ temp{
     background-color: blanchedalmond;
 }
 
-
+footer p{
+    white-space: pre;
+}
 
 footer{
     display: flex;
@@ -44,6 +46,7 @@ footer{
 }
 
 .footer_bottom{
+    white-space: pre;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,7 +56,9 @@ footer{
     text-align: center;
 }
 
-.footer_facebook, .footer_twitter, .footer_instagram, .footer_youtube, .footer_address, .footer_email, .footer_phone, .footer_whatsapp{
+.footer_facebook, .footer_twitter, .footer_instagram,
+ .footer_youtube, .footer_address, .footer_email, 
+ .footer_phone, .footer_whatsapp{
     display: flex;
     flex-direction: row-reverse;
     justify-content:flex-end;
@@ -61,7 +66,10 @@ footer{
     cursor: pointer;
 }
 
-.footer_facebook img, .footer_twitter img, .footer_instagram img, .footer_youtube img, .footer_contact img, .footer_email img, .footer_phone img, .footer_whatsapp{
+.footer_facebook img, .footer_twitter img,
+ .footer_instagram img, .footer_youtube img
+ , .footer_contact img, .footer_email img, 
+ .footer_phone img, .footer_whatsapp{
     height: 20px;
     width: 20px;
 }
@@ -69,3 +77,59 @@ footer{
 .footer_social .footer_heading{
     margin-bottom: 14px;
 }
+
+
+/*=============================RESPONSIVE=================================*/
+@media (max-width: 768px) {
+    .footer_top {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        /* margin-top: 10px; */
+    }
+}
+.footer_contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0;
+} 
+.footer_social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0;
+
+}
+
+.footer_facebook, .footer_twitter, .footer_instagram,
+.footer_youtube,.footer_address, .footer_email,
+ .footer_phone, .footer_whatsapp{
+    justify-content: center;
+    align-items: center;
+ }
+
+ .footer_facebook img, .footer_twitter img,
+ .footer_instagram img, .footer_youtube img,
+ .footer_contact img, .footer_email img, 
+ .footer_phone img, .footer_whatsapp img{
+    height: 24px;
+    width: 24px;
+ }
+  
+ @media(max-width: 480px){
+    .footer_heading{
+        font-size: 18px;
+    }
+    .footer_contact {
+        font-size: 14px;
+    }
+
+    .footer_bottom {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+ }

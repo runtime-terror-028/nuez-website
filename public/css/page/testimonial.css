@@ -130,6 +130,7 @@ body {
 
 .t_card:hover::before {
   width: 400%;
+
 }
 
 .t_card:hover :is(h4, h5) {
@@ -142,4 +143,87 @@ body {
 
 .t_card:hover img {
   border-color: var(--white);
+}
+
+
+/*====================RESPONSIVE==========================*/
+  
+@media (max-width: 768px) {
+  .container h1 {
+    font-size: 2rem;
+  }
+  
+  .container h2 {
+    font-size: 1.25rem;
+  }
+  
+  .t_container {
+    grid-template-columns: 1fr;
+  }
+  
+  .t_card {
+    padding: 4rem 1rem 1rem;
+  }
+  
+  .t_card span {
+    font-size: 2.5rem;
+    padding: 0.75rem;
+  }
+  
+  .t_card h4 {
+    margin-top: 3rem;
+    font-size: 1.25rem;
+  }
+  
+  .t_card img {
+    max-width: 80px;
+  }
+  
+  .t_card h5 {
+    font-size: 1.1rem;
+  }
+  
+  .t_card h6 {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 1rem 0.5rem;
+  }
+  
+  .container h1 {
+    font-size: 1.75rem;
+  }
+  
+  .container h2 {
+    font-size: 1rem;
+  }
+  
+  .t_card {
+    padding: 3rem 0.5rem 0.5rem;
+  }
+  
+  .t_card span {
+    font-size: 2rem;
+    padding: 0.5rem;
+  }
+  
+  .t_card h4 {
+    margin-top: 2rem;
+    font-size: 1rem;
+  }
+  
+  .t_card img {
+    max-width: 50px;
+  }
+  
+  .t_card h5 {
+    font-size: 0.9rem;
+  }
+  
+  .t_card h6 {
+    font-size: 0.75rem;
+  }
 }

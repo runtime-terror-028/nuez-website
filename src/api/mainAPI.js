@@ -4,7 +4,7 @@ const nodemailer = require('nodemailer');
 const path = require('path');
 const api = express();
 
-
+const status = "";
 
 
 
@@ -35,13 +35,17 @@ api.post('/send-mail', (req, res) => {
         text:`${message} \n \n \n Name: ${name}\n Email: ${email} \n Phone: ${phone}`
     };
 
-
     // Send mail with defined transport object
     transporter.sendMail(mailOptions, (error, info) => {
         if (error) {
-            return res.status(500).json({ success: false, message: 'Error sending email: ' + error.message });
+            console.error('Error sending email:', error.message);
+            status = "success";
+        } else {
+            console.log('Email sent successfully:', info.response);
+            status = "not_success"
         }
-        res.status(200).json({ success: true, message: 'Email sent successfully' });
+
+        res.send(status);
     });
 });
 
