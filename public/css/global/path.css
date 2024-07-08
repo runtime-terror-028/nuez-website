@@ -59,6 +59,46 @@
     content: url("/img/card/p8.png");
 }
 
+#product_image1 {
+    content: url("/img/product/product1.jpeg");
+}
+
+#product_image2 {
+    content: url("/img/product/product2.jpeg");
+}
+
+#product_image3 {
+    content: url("/img/product/product3.jpeg");
+}
+
+#product_image4 {
+    content: url("/img/product/product4.jpeg");
+}
+
+#product_image5 {
+    content: url("/img/product/product5.jpeg");
+}
+
+#product_image6 {
+    content: url("/img/product/product6.jpeg");
+}
+
+#product_image7 {
+    content: url("/img/product/product7.jpeg");
+}
+
+#product_image8 {
+    content: url("/img/product/product8.jpeg");
+}
+
+
+
+
+
+
+
+
+
 
 
 #catalogue_panel_image1 {
